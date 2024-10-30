@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import FootChild from "../components/Update.vue";
+import FootChild from "../components/Updates.vue";
 export default {
   components: {
     FootChild,

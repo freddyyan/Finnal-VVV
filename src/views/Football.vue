@@ -3,7 +3,7 @@
 </template>
 
 <script>
-import Calender from "../components/Calenders.vue";
+import Calender from "../components/Footballs.vue";
 export default {
   components: {
     Calender,

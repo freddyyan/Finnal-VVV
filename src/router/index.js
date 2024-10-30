@@ -1,53 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
-import HomeView from '../views/Twolive.vue'
 import Livechat from "../views/Livechat.vue"
 import Football from "../views/FootballUpdate.vue"
-import Calender from "../views/Calender.vue"
-import TwoCalender from "../views/TwoCalender.vue"
-import ThreeCalender from "../views/ThreeCalender.vue"
-import TwoAm from "../views/TwoAm.vue"
-import TwoPm from "../views/TwoPm.vue"
+import Calender from "../views/Football.vue"
+
 
 const routes = [
-  {
-    path: '/',
-    name: 'home',
-    component: HomeView
-  },
+
   {
     path: "/livechat",
     name: "Livechat",
     component: Livechat
   },
   {
-    path: "/football",
+    path: "/",
     name: "Football",
     component: Football
   },
   {
-    path: "/highlights",
+    path: "/footballs",
     name: "Highlights",
     component: Calender
-  },
-  {
-    path:"/twocalender",
-    name:"TwoCalender",
-    component: TwoCalender
-  },
-  {
-    path: "/twoam",
-    name: "TwoAm",
-    component:TwoAm
-  },
-  {
-    path: "/twopm",
-    name: "TwoPm",
-    component:TwoPm
-  },
-  {
-    path: "/threecalender",
-    name: "ThreeCalender",
-    component:ThreeCalender
   }
 ]
 
