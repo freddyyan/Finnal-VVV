@@ -1,34 +1,13 @@
 <template>
 
-<table>
-  <router-link to="/twoam"  class="styled-button">
-    <p> 2D ( 12-01 ) 
-    </p>
-  </router-link>
-
-
-  <router-link to="/twopm"  class="styled-button">
-    <p> 2D ( 4-30 ) 
-    </p>
-  </router-link>
-
-  <router-link to="/twocalender" class="styled-button">
-    <p> 2D ( 12-01 & 4-30 )
-    </p>
-  </router-link>
-
-  <router-link to="/threecalender"  class="styled-button">
-    <p> 3D ( 2014 - 2024 ) 
-    </p>
-  </router-link>
-
-</table>
-
-
+    
   <!-- တိုက်ရိုက် လွှင့်မည့် အပိုင်းလာမည် ။ -->
 
     <div class="styled-button">
         <a href="https://yalla-lives.io/"> ဘောလုံးပွဲလိဂ် အစုံ တိုက်ရိုက်ကြည့်ရန် နှိပ်ပါ ။ </a>
+    </div>
+    <div class="styled-button">
+        <a href="https://hoofoot.com//"> ဘောလုံးပွဲ ဟိုက်လိုက်အစုံ ကြည့်ရန် နှိပ်ပါ ။ </a>
     </div>
 
 
@@ -37,9 +16,6 @@
   <h5>
     555MIX - ( 1 Unit - 1 Ks ) <br> 
     SPORTS899 - ( 1 Unit - 1 Ks ) <br>
-    IBET789 - ( 1 Unit - 1000 Ks ) <br>
-    2D - 85Z <br>
-    3D - 600Z
   </h5>
 
 
@@ -51,7 +27,6 @@
     မောင်းအဆ 100 ထိသာ ကန့်သတ်ထားပါတယ် ။ <br> နိုင်ရင် နှစ်ခုရ သလို ရှုံးမယ်ဆိုရင်တောင် အပြည့်မရှုံးတော့ပါနော် ။ <br>
     ဆ အကန့်မရှိပဲ ကစားလိုပါက မောင်းဘောနက် 3 ရာခိုင်နှုန်း ။
     <br>
-    2D ( 85ဆ ) နှင့် 3D ( 600ဆ ) Viber မှ တင်ရပါမယ် ။<br>
     ၃ မိနစ်အတွင်း အမြန်ဆုံး အကောင်းဆုံး ဝန်ဆောင်မှုအတွက် <br> <br>
 
      Viber & Telegram & Hotline <br> <br>
@@ -82,33 +57,17 @@ export default {
 <style scoped>
 
 
-table {
-  display: grid;
-  justify-content: space-around;
-  background-color: transparent;
-  gap: 0.7rem;
-  margin: 15px auto;
-}
-
-@media (min-width: 300px) {
-  table {
-    grid-template-columns: repeat(2, 1fr);
-  }
-}
-
-
 h5{
   max-width: 1200px;
   color: rgb(0, 0, 0);
   border-radius: 10px;
   background: linear-gradient(135deg, #a3a3b8, #ffffff);
-  font-size: 0.9rem;
-  text-align: left;
+  font-size: 1rem;
+  text-align: center;
   justify-content: center;
-  line-height: 23px;
-  padding: 3px;
-  padding-left: 20px;
-  margin: 10px auto;
+  line-height: 30px;
+  padding: 10px;
+  margin: 15px auto;
 }
 
 h6{
@@ -121,8 +80,8 @@ h6{
   padding: 5px;
   padding-left: 15px;
   border-radius: 10px;
-  line-height: 17px;
-  margin: 10px auto;
+  line-height: 20px;
+  margin: 15px auto;
 }
 footer {
   display: flex;
@@ -147,8 +106,11 @@ a {
   font-weight: bold;
   color: rgb(244, 248, 0);
   font-weight: bold;
-  padding: 7px 15px;
-  font-size: 0.9rem;
+  padding: 7px 20px;
+  font-size: 1rem;
+  margin: 15px;
+  display: flex;
+  justify-content: center;
 
 }
 
@@ -166,7 +128,7 @@ a {
   background: linear-gradient(135deg, #4771fa, #9b4cfc);
   border: none;
   color: rgb(255, 255, 255);
-  padding: 10px 20px;
+  padding: 10px 25px;
   text-align: center;
   text-decoration: none;
   font-size: 17px;
@@ -175,6 +137,7 @@ a {
   transition: background 0.3s ease, transform 0.3s ease;
   cursor: pointer;
   font-weight: bold;
+  margin: 15px auto;
 }
 
 .styled-footer:hover {

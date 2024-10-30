@@ -1,18 +1,14 @@
 <template>
-  <table>
-
-      
-    <!-- Refresh Webpage -->
-
-    <div>
-    <button @click="refreshPage" class="styled-button">... ကြေးတစ်ရက်ကြိုမပြပါက နှိပ်ပေးပါ ...</button>
+  <table >
+    
+     <div>
+    <button @click="refreshPage" class="styled-button">Refresh ( ကြေးတစ်ရက်ကြိုမပြပါက နှိပ်ပေးပါ )</button>
     </div>
     
-
     <!--  Title ခေါင်းစဥ်ပိုင်း -->
 
     <caption class="caption">
-      29-10-2024 ( အင်္ဂါ နေ့ ) အတွက် ပေါက်ကြေး
+      31-10-2024 ( ကြာသပတေး နေ့ ) အတွက် ပေါက်ကြေး
     </caption>
     <tr class="cards" >
       <th>Home <br>( အိမ်ရှင် )</th>
@@ -27,7 +23,7 @@
     <div>
       <div>
         <caption>
-          အင်္ဂလန်လိဂ်ကပ် ပွဲစဥ်များ
+          အီတလီစီးရီးအေ ပွဲစဥ်များ
         </caption>
         <div v-for="football in premiers" :key="football">
           <tr class="cards">
@@ -42,7 +38,7 @@
 
       <div>
         <caption>
-          အီတလီစီးရီးအေ ပွဲစဥ်များ
+          ဆွစ်ဇာလန် စူပါလိဂ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in series" :key="football">
           <tr class="cards">
@@ -57,7 +53,7 @@
 
       <div>
         <caption>
-          ဂျာမန်ကပ် ပွဲစဥ်များ
+          ဆော်ဒီအာရေးဗျ ပရိုလိဂ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in spains" :key="football">
           <tr class="cards">
@@ -72,7 +68,7 @@
 
       <div>
         <caption>
-          အီတလီစီးရီးဘီ ပွဲစဥ်များ
+        ကာတာလိဂ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in bundes" :key="football">
           <tr class="cards"> 
@@ -85,9 +81,9 @@
 
        <!-- ပဥ္စမ လိဂ် လာမည်  -->
 
-      <!-- <div>
+      <div>
         <caption>
-          ပြင်သစ်လီဂူး ပွဲစဥ်များ
+          အီဂျစ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in leagues" :key="football">
           <tr class="cards">
@@ -96,7 +92,7 @@
             <th class="away">{{ football.away }}</th>
           </tr>
         </div>
-      </div> -->
+      </div>
 
 
         <!-- ဆတ္ထမ လိဂ်လာမည် -->
@@ -129,7 +125,6 @@
     Livechat စာတက်ရန် အချိန်ခန စောင့်ပေးပါနော် ။
   </h6>
 
-
   <h6>
     မိတ်ဆွေရဲ့ ရဲရင့် စိတ်ချစွာ ရွေးချယ်ခြင်းအတွက် <br>
     5000 ကျပ်မှ စပြီး စမ်းသပ်လေ့လာနိုင်ပါတယ် ။ <br>
@@ -160,8 +155,10 @@ export default {
 
       premiers: [
 
-        { home: "ဆောက်သမ်တန် 1-40 ", odds: "( 3+30 )", away: "စတုတ်စီးတီး " },
-        { home: "ဘရန့်ဖို့ 1-70", odds: "( 3+10 )", away: "ရှက်ဖီး ဝက်စ်နဒေး" },
+        { home: "ဂျီနိုအာ ", odds: "( 2-90 )", away: " ဖီအိုရင်တီးနား 1+80" },
+        { home: "ကိုမို ", odds: "( 2-100 )", away: "လာဇီယို =-30 " },
+        { home: "ရိုးမား 1+60", odds: "( 2-95 )", away: " တိုရီနို" },
+     
         
         
         
@@ -172,9 +169,9 @@ export default {
 
         series: [
 
-        { home: "ကယ်ဂလီယာရီ", odds: "( 2-50 )", away: "ဘိုလော့နာ =-25" },
-        { home: "လက်ချီ =-70", odds: "( 2-65 )", away: "ဗီရိုနာ" },
-        { home: "အေစီမီလန် =-40", odds: "( 3+85 )", away: "နာပိုလီ" },
+        { home: " ဂရပ်ဟော့ပါး", odds: "( 3+60 )", away: "လူဂါနို =-65 " },
+        { home: "ဆာဗက်တီ =-100 ", odds: "( 3= )", away: "လူဇန် " },
+       
         
       ],
 
@@ -183,17 +180,9 @@ export default {
 
       spains: [
 
-        { home: "အော့ဘတ် 1-50", odds: "( 3-10 )", away: "ရှော့ကေး " },
-        { home: "ကစ်ကာ  ", odds: "( 3+40 )", away: "ကာရှုဟာ 1+20 " },
-        { home: "လိုက်ဇစ် 2+90 ", odds: "( 3= )", away: "စိန့်ပေါ်လီ " },
-        { home: "စတုဂတ် 2+50", odds: "( 3-60 )", away: "ကိုင်ဇာစလော့" },
-        { home: "ကိုလုံး 1+90 ", odds: "( 3-15 )", away: "ဟိုစတိန်း ကီး" },
-        { home: "ရီဂျင်ဘတ် ", odds: "( 3+40 )", away: "ဂရုသာဖတ် =-60" },
-        { home: "ဝုဘတ် ", odds: "( 3+15 )", away: "ဒေါ့မွန် =-90" },
-        
-        
-        
-        
+        { home: "Al ရီယက် 1-10 ", odds: "( 3+60 )", away: "Al ဝက်ဒါ" },
+        { home: "Al ခိုလု =-50", odds: "( 2-85 )", away: "Al အိုရိုဘတ်  " },
+        { home: "Al အီတီဟတ် =-40 ", odds: "( 3-50 )", away: "Al အက်လီ " },
       
       ],
 
@@ -203,12 +192,9 @@ export default {
 
       bundes: [
 
-        { home: "ရက်ဂျီးနား =-30", odds: "( 2-40 )", away: "ကိုဆန်ဇာ" },
-        { home: "ဘာရီ 1+90 ", odds: "( 2-50 )", away: "ကာရာရတ်စီ" },
-        { home: "ဘရက်ရှား == ", odds: "( 2-45 )", away: "စပီဇာ" },
-        { home: "ဂျူဗီ စတာဘီး ", odds: "( 2-40 )", away: "ဆက်စူအိုလို =-50" },
-        { home: "မိုဒီနာ ==", odds: "( 2-65 )", away: "ခရီမိုနန့်" },
-        { home: "ဆလာနီတာ == ", odds: "( 2-40 )", away: "စီဆီနာ " },
+        { home: "Al ဒိုဟာ =-100 ", odds: "( 3-70 )", away: "ရေယံ " },
+        { home: "ဂါရာဖာ SC 1+85", odds: "( 3-100 )", away: "အာရာဘီ ဒိုဟာ " },
+        { home: "ကေဟာ ", odds: "( 3+30 )", away: "ကာတာ SC " },
         
         
         
@@ -219,17 +205,18 @@ export default {
 
       leagues: [
 
-        { home: "လိုင်ယွန် 1-20", odds: "( 3-50 )", away: "အော်ဇေး " },
-        { home: "မောင့်ပယ်လီယာ", odds: "( 3+60 )", away: "တူးလော့ =-40" },
-        { home: "နိုက် စ် ", odds: "( 3+60 )", away: "မိုနာကို =-60" },
-         { home: "စထရာဘော့စ် 1+90", odds: "( 3+90 )", away: "နန့်တက်" },
-        { home: "မာဆေး", odds: "( 3-10 )", away: "ပီအက်ဂျီ =-100" },
+        { home: "ဂူနာ ", odds: "( 2-40 )", away: "ZED FC =-90" },
+        { home: "M စပေါ့လ် =-70 ", odds: "( 2+15 )", away: " ENPPI" },
+        { home: "ဂူနာ ", odds: "( 2-40 )", away: "ZED FC =-90" },
+        
+        
+        
         
 
       ],
 
 
-      // စတုတ္ထလိဂ် လာမည် ချန်ပီယံရှစ် 
+      // ဆတ္ထမ လိဂ် လာမည် ချန်ပီယံရှစ် 
 
       championships: [
 
@@ -250,6 +237,15 @@ export default {
       
 
       // အပိတ် နောက်ဆုံးအပိုင်း 
+      championships: [
+
+        { home: " ", odds: "(  )", away: " " },
+        { home: " ", odds: "(  )", away: " " },
+        
+        
+        ],
+        
+
     };
   },
   methods: {
@@ -258,6 +254,7 @@ export default {
       window.location.reload();
     }
   }
+
   
 };
 

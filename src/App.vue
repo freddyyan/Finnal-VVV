@@ -9,6 +9,14 @@ export default {
   components: {
     Navbar,
   },
+    mounted() {
+    // 15 minutes in milliseconds
+    const refreshInterval = 30 * 57 * 1000;
+
+    setInterval(() => {
+      window.location.reload();
+    }, refreshInterval); // Refresh every 15 minutes
+  }
 };
 </script>
 
