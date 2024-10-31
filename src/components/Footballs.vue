@@ -18,7 +18,15 @@
     SPORTS899 - ( 1 Unit - 1 Ks ) <br>
   </h5>
 
+  
 
+  <h4>
+  App Install ပြုလုပ်နည်း Link ထဲအရင်ဝင်ပါ ။ <br>
+  Facebook and Telegram  ဆိုရင် ညာဘက်အပေါ်နားက အစက်သုံးစက်ကို နှိပ်ပြီး Open in browser ကို ရွေးပေးရပါတယ် ။
+  Viber မှာဆို မလိုပါ Browser ထဲ တန်းရောက်ပါတယ် ။ <br><br> 
+  Browser ထဲရောက်ရင် ညာဘက်အပေါ်နားက အစက်သုံးစက်ကို နှိပ်ပေးပါ ။<br>
+  Add to Home Screen ကိုနှိပ်ပြီး Install တင်ရင်ရပါပြီနော် ။ <br>
+  </h4>
   <!-- ကြော်ငြာပိုင်းလာမည် 2 -->
   
   <h6>
@@ -59,17 +67,29 @@ export default {
 
 h5{
   max-width: 1200px;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   border-radius: 10px;
-  background: linear-gradient(135deg, #a3a3b8, #ffffff);
-  font-size: 1rem;
+  background: linear-gradient(135deg, #bb214f, #dd9f2c);
+  font-size: 1.2rem;
   text-align: center;
   justify-content: center;
   line-height: 30px;
   padding: 10px;
   margin: 15px auto;
 }
-
+h4{
+  max-width: 1200px;
+  font-weight: bold;
+  color: rgb(0, 0, 0);
+  background: linear-gradient(135deg, #d59bf7, #c472f3);
+  text-align: left;
+  padding: 10px;
+  padding-left: 15px;
+  border-radius: 10px;
+  line-height: 18px;
+  margin: 15px auto;
+  font-size: 9pt;
+}
 h6{
   max-width: 1200px;
   font-size: 10.5px;
@@ -80,7 +100,7 @@ h6{
   padding: 5px;
   padding-left: 15px;
   border-radius: 10px;
-  line-height: 20px;
+  line-height: 18px;
   margin: 15px auto;
 }
 footer {
