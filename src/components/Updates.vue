@@ -99,9 +99,9 @@
 
 
 
-        <!-- <div>
+        <div>
         <caption>
-          ချန်ပီယံရှစ် ပွဲစဥ်များ
+          ပေါ်တူဂီ ကပ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in championships" :key="football">
           <tr class="cards">
@@ -110,7 +110,7 @@
             <th class="away">{{ football.away }}</th>
           </tr>
         </div>
-      </div> -->
+      </div>
 
       <!--  လိဂ် ၆ လိဂ် အဆုံး  -->
 
@@ -220,16 +220,8 @@ export default {
 
       championships: [
 
-        { home: "ဘရစ္စတိုး စီးတီး ", odds: "( 3+100 )", away: "လိဒ် 1+90" },
-        { home: "ကိုဗန်ထရီ -50 ", odds: "( 3+80 )", away: "လူတန်တောင်း" },
-        { home: "ဝက်ဖို့ -30 ", odds: "( 3+65 )", away: "ဘလက်ဘန်း" },
-        { home: "ဘန်လေ 1+40 ", odds: "( 2-50 )", away: "ကျူပီအာ" },
-        { home: "ဒါဘီ -40 ", odds: "( 2-100 )", away: "ဟူး စီးတီး" },
-        { home: "ပလိုင်းမောက် ", odds: "( 3+90 )", away: "ပရက်စတန် -15" },
-        { home: "ရှက်ဖီးယူနိက်တက် 1+50 ", odds: "( 2-90 )", away: "စတုတ်စီးတီး" },
-        { home: "ဆန်းဒါးလန်း 1+5 ", odds: "( 3+70 )", away: "အောက်ဖို့ ယူနိုက်တက်" },
-        { home: "ဆွမ်ဆီး -30 ", odds: "( 2-30 )", away: "မီဝေါ " },
-        { home: "ဝက်ဘရွန်း 1+50 ", odds: "( 2-70 )", away: "ကာဒစ် " },
+        { home: "ဘရာဂါ =-55 ", odds: "( 2-75 )", away: "ဂူမာရေး " },
+        { home: "ပေါ်တို 2+90 ", odds: "( 3+45 )", away: "မိုရီရန်စီ " },
         
         
 
@@ -237,7 +229,7 @@ export default {
       
 
       // အပိတ် နောက်ဆုံးအပိုင်း 
-      championships: [
+      footballupdates: [
 
         { home: " ", odds: "(  )", away: " " },
         { home: " ", odds: "(  )", away: " " },
@@ -280,7 +272,7 @@ caption {
   margin-bottom: 4px;
   font-weight: 900;
   color: white;
-  font-size: 15px;
+  font-size: 14.5px;
   text-align: center;
   justify-content: center;
   display: flex;
@@ -299,7 +291,7 @@ tr {
 }
 
 th {
-  font-size: 9pt;
+  font-size: 8.5pt;
   border-radius: 5px;
   color: rgb(253, 253, 253);
   font-weight: bold;
@@ -382,7 +374,7 @@ a {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   border-radius: 25px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   transition: background 0.3s ease, transform 0.3s ease;
