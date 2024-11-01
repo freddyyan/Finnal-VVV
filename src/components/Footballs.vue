@@ -7,7 +7,7 @@
         <a href="https://yalla-lives.io/"> ဘောလုံးပွဲလိဂ် အစုံ တိုက်ရိုက်ကြည့်ရန် နှိပ်ပါ ။ </a>
     </div>
     <div class="styled-button">
-        <a href="https://hoofoot.com//"> ဘောလုံးပွဲ ဟိုက်လိုက်အစုံ ကြည့်ရန် နှိပ်ပါ ။ </a>
+        <a href="https://hoofoot.com//">( Highlights ) ဟိုက်လိုက်အစုံ ကြည့်ရန် နှိပ်ပါ ။ </a>
     </div>
 
 
@@ -19,28 +19,33 @@
   </h5>
 
   
-
-  <h4>
-  App Install ပြုလုပ်နည်း Link ထဲအရင်ဝင်ပါ ။ <br>
+<div>
+  <h4> ( ...App Install ပြုလုပ်နည်း... )</h4>
+  <p>Link ထဲအရင်ဝင်ပါ ။ <br>
   Facebook and Telegram  ဆိုရင် ညာဘက်အပေါ်နားက အစက်သုံးစက်ကို နှိပ်ပြီး Open in browser ကို ရွေးပေးရပါတယ် ။
   Viber မှာဆို မလိုပါ Browser ထဲ တန်းရောက်ပါတယ် ။ <br><br> 
   Browser ထဲရောက်ရင် ညာဘက်အပေါ်နားက အစက်သုံးစက်ကို နှိပ်ပေးပါ ။<br>
   Add to Home Screen ကိုနှိပ်ပြီး Install တင်ရင်ရပါပြီနော် ။ <br>
-  </h4>
+  အဆင်မပြေတာရှိပါက Viber ( or ) Telegram တို့မှ ဆက်သွယ်နိုင်ပါတယ် ။
+  </p>
+  </div>
   <!-- ကြော်ငြာပိုင်းလာမည် 2 -->
   
-  <h6>
-    အကောင့်ဖွင့် မောင်းကစား ဘောနက် 8 ရာခိုင်နှုန်း ပြန်လည်ပေးပါတယ် ။ <br>
-    မောင်းကဒ် 10000 ကဒ်ဆို 800 ၊ 5000 ကဒ်ဆို 400 ပြန်လည်ရရှိမှာဖြစ်ပါတယ် ။<br>
-    မောင်းအဆ 100 ထိသာ ကန့်သတ်ထားပါတယ် ။ <br> နိုင်ရင် နှစ်ခုရ သလို ရှုံးမယ်ဆိုရင်တောင် အပြည့်မရှုံးတော့ပါနော် ။ <br>
+<div>
+  <h4>  ( ... မောင်း ကော်မရှင် ဘောနက် ... )</h4>
+  <p>
+    အကောင့်ဖွင့် မောင်းကစား ဘောနက် 8 ရာခိုင်နှုန်း ပြန်လည်ပေးပါတယ် ။<br>
+    မောင်းကဒ် 10000 ဆို 800 ၊ 5000 ဆို 400 ကျပ် ပြန်လည်ရရှိမှာဖြစ်ပါတယ်။ <br>
+    နိုင်ရင် နှစ်ခုရ သလို ရှုံးမယ်ဆိုရင်တောင် အပြည့်မရှုံးတော့ပါနော် ။ <br>
+    ဆ 100 ထိသာ ကန့်သတ်ထားပါတယ်နော် ။ <br>
     ဆ အကန့်မရှိပဲ ကစားလိုပါက မောင်းဘောနက် 3 ရာခိုင်နှုန်း ။
-    <br>
-    ၃ မိနစ်အတွင်း အမြန်ဆုံး အကောင်းဆုံး ဝန်ဆောင်မှုအတွက် <br> <br>
+    <br> <br>
 
      Viber & Telegram & Hotline <br> <br>
 
     တို့ကို တစ်ချက်နှိပ်ပြီး ဆက်သွယ်နိုင်ပါကြောင်း ။ <br>
-  </h6>
+  </p>
+</div>
   
 
 
@@ -64,44 +69,37 @@ export default {
 
 <style scoped>
 
-
 h5{
   max-width: 1200px;
-  color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   border-radius: 10px;
-  background: linear-gradient(135deg, #bb214f, #dd9f2c);
+  background: linear-gradient(135deg, #fcfcfc, #f7f7f7);
   font-size: 1.2rem;
   text-align: center;
   justify-content: center;
   line-height: 30px;
   padding: 10px;
-  margin: 15px auto;
+  margin: 10px auto;
 }
 h4{
   max-width: 1200px;
   font-weight: bold;
-  color: rgb(0, 0, 0);
-  background: linear-gradient(135deg, #d59bf7, #c472f3);
-  text-align: left;
-  padding: 10px;
-  padding-left: 15px;
-  border-radius: 10px;
-  line-height: 18px;
-  margin: 15px auto;
-  font-size: 9pt;
+  color: rgb(248, 4, 4);
+  text-align: center;
+  font-size: 1rem;
+  margin: 11px auto;
+
 }
-h6{
+p{
   max-width: 1200px;
-  font-size: 10.5px;
   font-weight: bold;
-  color: rgb(3, 3, 3);
-  background: linear-gradient(135deg, #a7a7b8, #ffffff);
+  color: rgb(0, 0, 0);
   text-align: left;
-  padding: 5px;
   padding-left: 15px;
   border-radius: 10px;
-  line-height: 18px;
-  margin: 15px auto;
+  line-height: 16.5px;
+  font-size: 11px;
+  margin: 5px auto;
 }
 footer {
   display: flex;
@@ -127,7 +125,7 @@ a {
   color: rgb(244, 248, 0);
   font-weight: bold;
   padding: 7px 20px;
-  font-size: 1rem;
+  font-size: 0.9rem;
   margin: 15px;
   display: flex;
   justify-content: center;
