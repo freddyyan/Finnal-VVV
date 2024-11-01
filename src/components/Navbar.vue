@@ -18,15 +18,16 @@
     </div>
   </div>
   <header>
-
     <router-link to="/livechat" class="styled-button">LiveChat</router-link>
-    <router-link to="/" class="styled-button"> Updates </router-link>
+    <router-link to="/" class="styled-button" > Updates </router-link>
     <router-link to="/footballs" class="styled-button">Footballs</router-link>
   </header>
 </template>
 
 <script>
-export default {};
+export default {
+ 
+};
 </script>
 
 <style >
@@ -70,7 +71,7 @@ header a.router-link-active {
   width: max-content;
   color: #fbe80e;
   font-weight:bold;
-  animation: RightToleft 105s infinite linear;
+  animation: RightToleft 90s infinite linear;
   font-size: 13px;
 }
 

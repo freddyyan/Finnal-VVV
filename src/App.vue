@@ -1,6 +1,8 @@
 <template>
+<div :key="componentKey">
   <Navbar />
   <router-view />
+  </div>
 </template>
 
 <script>
@@ -9,12 +11,18 @@ export default {
   components: {
     Navbar,
   },
-    mounted() {
+  data() {
+    return {
+      componentKey: 0, // key value for triggering re-render
+    };
+  },
+  mounted() {
     // 15 minutes in milliseconds
-    const refreshInterval = 30 * 57 * 1000;
+    const refreshInterval = 6 * 60 * 1000;
 
     setInterval(() => {
-      window.location.reload();
+      // Incrementing the key to force re-render
+      this.componentKey += 1;
     }, refreshInterval); // Refresh every 15 minutes
   }
 };

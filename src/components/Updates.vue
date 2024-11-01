@@ -8,7 +8,7 @@
     <!--  Title ခေါင်းစဥ်ပိုင်း -->
 
     <caption class="caption">
-      31-10-2024 ( ကြာသပတေး နေ့ ) အတွက် ပေါက်ကြေး
+      01-11-2024 ( သောကြာနေ့ ) အတွက် ပေါက်ကြေး
     </caption>
     <tr class="cards" >
       <th>Home <br>( အိမ်ရှင် )</th>
@@ -23,7 +23,7 @@
     <div>
       <div>
         <caption>
-          အီတလီစီးရီးအေ ပွဲစဥ်များ
+          စပိန်လာလီဂါ ပွဲစဥ်များ
         </caption>
         <div v-for="football in premiers" :key="football">
           <tr class="cards">
@@ -38,7 +38,7 @@
 
       <div>
         <caption>
-          ဆွစ်ဇာလန် စူပါလိဂ် ပွဲစဥ်များ
+          ဂျာမန်ဘွန်ဒက်လီဂါ ပွဲစဥ်များ
         </caption>
         <div v-for="football in series" :key="football">
           <tr class="cards">
@@ -53,7 +53,7 @@
 
       <div>
         <caption>
-          ဆော်ဒီအာရေးဗျ ပရိုလိဂ် ပွဲစဥ်များ
+          ပြင်သစ်လီဂူး ပွဲစဥ်များ
         </caption>
         <div v-for="football in spains" :key="football">
           <tr class="cards">
@@ -68,7 +68,7 @@
 
       <div>
         <caption>
-        ကာတာလိဂ် ပွဲစဥ်များ
+        ချန်ပီယံရှစ် ပွဲစဥ်များ
         </caption>
         <div v-for="football in bundes" :key="football">
           <tr class="cards"> 
@@ -83,7 +83,7 @@
 
       <div>
         <caption>
-          အီဂျစ် ပွဲစဥ်များ
+          ဂျာမန်ဘွန်ဒက်လီဂါ ၂ ပွဲစဥ်များ
         </caption>
         <div v-for="football in leagues" :key="football">
           <tr class="cards">
@@ -101,7 +101,7 @@
 
         <div>
         <caption>
-          ပေါ်တူဂီ ကပ် ပွဲစဥ်များ
+          ပြင်သစ်လီဂူး ၂ ပွဲစဥ်များ
         </caption>
         <div v-for="football in championships" :key="football">
           <tr class="cards">
@@ -121,7 +121,7 @@
 
   <h6 class="styled-update">
     ညစဥ် ( 10-00 ) အချိန် ပေါက်ကြေး တစ်ရက် ကြိုတင်ပါတယ် ။ <br>
-    Refresh Update တစ်ချက်နှိပ်ပြီး ကြည့်ရှု့နိုင်ပါတယ် ။ <br>
+    Refresh  တစ်ချက်နှိပ်ပြီး ကြည့်ရှု့နိုင်ပါတယ် ။ <br>
     Livechat စာတက်ရန် အချိန်ခန စောင့်ပေးပါနော် ။
   </h6>
 
@@ -129,7 +129,7 @@
     မိတ်ဆွေရဲ့ ရဲရင့် စိတ်ချစွာ ရွေးချယ်ခြင်းအတွက် <br>
     5000 ကျပ်မှ စပြီး စမ်းသပ်လေ့လာနိုင်ပါတယ် ။ <br>
     ၃ မိနစ်အတွင်း အမြန်ဆုံး အကောင်းဆုံး ဝန်ဆောင်မှုအတွက် <br>
-    Viber & Telegram & Hotline တို့မှ ဆက်သွယ်နိုင်ပါကြောင်း ။ 
+    Viber & Telegram & Hotline တို့မှ ဆက်သွယ်နိုင်ပါကြောင်း ။
   </h6>
 
   
@@ -155,9 +155,7 @@ export default {
 
       premiers: [
 
-        { home: "ဂျီနိုအာ ", odds: "( 2-90 )", away: " ဖီအိုရင်တီးနား 1+80" },
-        { home: "ကိုမို ", odds: "( 2-100 )", away: "လာဇီယို =-30 " },
-        { home: "ရိုးမား 1+60", odds: "( 2-95 )", away: " တိုရီနို" },
+        { home: "အလာဗက် =-35", odds: "( 2+15 )", away: "မာယော့ကာ " },
      
         
         
@@ -169,8 +167,7 @@ export default {
 
         series: [
 
-        { home: " ဂရပ်ဟော့ပါး", odds: "( 3+60 )", away: "လူဂါနို =-65 " },
-        { home: "ဆာဗက်တီ =-100 ", odds: "( 3= )", away: "လူဇန် " },
+        { home: " လေဗာကူဆင် 1-20", odds: "( 3-90 )", away: "စတုဂတ် " },
        
         
       ],
@@ -180,9 +177,8 @@ export default {
 
       spains: [
 
-        { home: "Al ရီယက် 1-10 ", odds: "( 3+60 )", away: "Al ဝက်ဒါ" },
-        { home: "Al ခိုလု =-50", odds: "( 2-85 )", away: "Al အိုရိုဘတ်  " },
-        { home: "Al အီတီဟတ် =-40 ", odds: "( 3-50 )", away: "Al အက်လီ " },
+        { home: "မိုနာကို 2+35", odds: "( 3-20 )", away: "အန်ဂါး " },
+        { home: "လိုင်လီ =-65 ", odds: "( 3+30 )", away: "လိုင်ယွန် " },
       
       ],
 
@@ -192,9 +188,7 @@ export default {
 
       bundes: [
 
-        { home: "Al ဒိုဟာ =-100 ", odds: "( 3-70 )", away: "ရေယံ " },
-        { home: "ဂါရာဖာ SC 1+85", odds: "( 3-100 )", away: "အာရာဘီ ဒိုဟာ " },
-        { home: "ကေဟာ ", odds: "( 3+30 )", away: "ကာတာ SC " },
+        { home: "လူတန်  ", odds: "( 2-75 )", away: "ဝက်ဘရွန်း =-20 " },
         
         
         
@@ -205,9 +199,8 @@ export default {
 
       leagues: [
 
-        { home: "ဂူနာ ", odds: "( 2-40 )", away: "ZED FC =-90" },
-        { home: "M စပေါ့လ် =-70 ", odds: "( 2+15 )", away: " ENPPI" },
-        { home: "ဂူနာ ", odds: "( 2-40 )", away: "ZED FC =-90" },
+        { home: " မန်းစတား", odds: "( 3+20 )", away: "ဒက်ဆဲဒေါ့ =-85" },
+        { home: "SSV 1864", odds: "( 3+60 )", away: "ရှော့ကေး " },
         
         
         
@@ -220,8 +213,12 @@ export default {
 
       championships: [
 
-        { home: "ဘရာဂါ =-55 ", odds: "( 2-75 )", away: "ဂူမာရေး " },
-        { home: "ပေါ်တို 2+90 ", odds: "( 3+45 )", away: "မိုရီရန်စီ " },
+        { home: "အန်နန်စီ =-40", odds: "( 2-80 )", away: "Pau Fc" },
+        { home: "ကလာမောင့် =-30", odds: "( 2-90 )", away: "လိုရီယန့် " },
+        { home: "မာတီဂူး ", odds: "( 2-50 )", away: "ရက်စတားစိန့် =-50" },
+        { home: "ပဲရစ် ", odds: "( 3+90 )", away: "ရိုဒက် " },
+        { home: "ထရိုယက် =-25", odds: "( 2-40 )", away: "လာဗယ်လွိုက် " },
+        { home: "ဒန်ကာကွီ =-35", odds: "( 2-40 )", away: "အန့်မိန်း " },
         
         
 
@@ -255,7 +252,7 @@ export default {
 
 <style scoped>
 table {
-  background: #c4bbbb;
+  background: #989c9b;
   border: 1px solid #ddd;
   border-radius: 10px;
   margin-bottom: 2px;
@@ -272,14 +269,14 @@ caption {
   margin-bottom: 4px;
   font-weight: 900;
   color: white;
-  font-size: 14.5px;
+  font-size: 11pt;
   text-align: center;
   justify-content: center;
   display: flex;
   border: 1.5pt solid rgb(235, 205, 13);
   border-radius: 8px;
   background: rgb(14, 78, 76);
-  padding: 5px 25px;
+  padding: 5px 17px;
 }
 
 tr {
@@ -293,7 +290,7 @@ tr {
 th {
   font-size: 8.5pt;
   border-radius: 5px;
-  color: rgb(253, 253, 253);
+  color: rgb(248, 239, 239);
   font-weight: bold;
   padding: 3px 1px;
 }
